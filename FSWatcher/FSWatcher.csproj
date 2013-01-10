@@ -42,7 +42,6 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AssemblyInfo.cs" />
     <Compile Include="Caching\Change.cs" />
     <Compile Include="Caching\ChangeType.cs" />
     <Compile Include="Initialization\SettingsReader.cs" />

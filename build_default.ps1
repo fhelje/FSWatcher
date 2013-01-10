@@ -81,12 +81,12 @@ task Init -depends Verify40, Clean, MakeTestOutputDirs {
         Generate-Assembly-Info `
             -file $asmInfo `
             -title "$projectName $version.0" `
-            -description "Distribution Report" `
-            -company "Str?lfors" `
-            -product "Job Manages Distribution Report $version.0" `
+            -description "Polling file system watcher replacement" `
+            -company "" `
+            -product "FSWatcher $version.0" `
             -version "$version.0" `
             -fileversion "$version.$buildCounter" `
-            -copyright "Copyright ? Str?lfors 2010" `
+            -copyright "Copyright 2010" `
             -clsCompliant $clsComliant
     }
 
