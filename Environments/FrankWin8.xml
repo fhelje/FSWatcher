@@ -1,0 +1,9 @@
+<environment>
+  <name>FRANKWIN8</name>
+  <database>
+    <servername>(local)\SQLEXPRESS</servername>
+    <database>NHSBTDev</database>
+  </database>
+  <services>
+  </services>
+</environment>
