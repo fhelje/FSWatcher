@@ -6,8 +6,8 @@ using FSWatcher.Initialization;
 
 namespace FSWatcher
 {
-	public class Watcher : IDisposable
-	{
+    public class Watcher : IWatcher
+    {
 		private string _dir;
 		private bool _exit = false;
 		private WatcherSettings _settings;

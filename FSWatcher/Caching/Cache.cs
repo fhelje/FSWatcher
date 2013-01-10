@@ -5,27 +5,7 @@ using FSWatcher.FS;
 
 namespace FSWatcher.Caching
 {
-	enum ChangeType
-	{
-		DirectoryCreated,
-		DirectoryDeleted,
-		FileCreated,
-		FileChanged,
-		FileDeleted
-	}
-
-	class Change
-	{
-		public ChangeType Type { get; private set; }
-		public string Item { get; private set; }
-
-		public Change(ChangeType type, string item)
-		{
-			Type = type;
-			Item = item;
-		}
-	}
-	class Cache
+    class Cache
 	{
 		private Func<bool> _abortCheck;
 		private string _dir;
